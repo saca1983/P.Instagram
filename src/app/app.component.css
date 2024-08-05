@@ -1,0 +1,164 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    border-bottom: 1px solid #dbdbdb;
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    height: 45px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+    margin-right: 50px;
+}
+
+.icon {
+    height: 24px;
+    width: 24px;
+}
+
+.stories {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px 0;
+    background-color: #fff;
+    border-bottom: 1px solid #dbdbdb;
+    margin-top: 60px; 
+}
+
+.story {
+    margin: 0 10px; 
+    text-align: center;
+}
+
+.story-img {
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    border: 2px solid #C264CA; 
+}
+
+.story-label {
+    font-size: 12px;
+    color: #333;
+}
+
+.notification {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #dbdbdb;
+    color: #8e8e8e;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.notification .icon {
+    margin-right: 10px;
+}
+
+.suggestions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.suggestions p {
+    font-weight: bold;
+}
+
+.suggestions-link {
+    color: #3897f0;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.feed {
+    padding: 10px 0;
+    background-color: #fafafa;
+}
+
+.post {
+    background-color: #fff;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #dbdbdb;
+    overflow: hidden;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between; 
+}
+
+.post-profile-pic {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.post-username {
+    font-weight: bold;
+    margin-right: auto; 
+}
+
+.follow-btn {
+    color: #000;
+    font-weight: bold;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: #fff;
+    cursor: pointer;
+    margin-right: 10px; 
+}
+
+.follow-btn:hover {
+    background-color: #f0f0f0;
+}
+
+.post-img {
+    width: 100%;
+}
+
+.bottom-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    border-top: 1px solid #dbdbdb;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.profile-icon {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
